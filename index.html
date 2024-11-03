@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!-- ------------Header----------------- -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="submit.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <div class="text">
+          <h2>Portfolio</h2>
+        </div>
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        
+        <h2>Hello, I am<span><br>Payal Rattan</span></h2>
+
+        <p> I am a enthusiastic fresher developer eager to launch a career in software development. With a foundation
+          in programming languages like HTML,CSS, Java, C,C++, JavaScript I am passionate about building innovative,
+          efficient, and user-friendly solutions. My goal is to continue learning, growing, and contributing to
+          impactful projects. Thank you for visiting my portfolio—I’m excited to connect!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------------About Me----------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-sec1">
+          <img src="./public/mee.png">
+        </div>
+        <div class="about-sec2">
+          <h1 class="about me">About me</h1>
+          <hr class="about-hr"><br>
+          <p>"As a dedicated software developer, I leverage my passion for innovation to craft cutting-edge solutions
+            that drive meaningful impact. I excel in designing and implementing scalable, efficient, and reliable
+            systems. With a strong commitment to continuous learning and professional growth, I strive to stay abreast
+            of the latest industry trends and best practices, ensuring that my skills remain current and relevant.
+            Whether working on individual projects or contributing to team efforts,I am dedicated to delivering
+            high-quality results that meet and exceed expectations."
+
+          </p>
+          <div class="skills">
+            <table>
+              <tr>
+                <th>Education Year</th>
+                <th>Degree</th>
+                <th>Skills</th>
+              </tr>
+              <tr style="height:40px;width:40px">
+                <td>2011</td>
+                <td>Masters in Computer Applications </td>
+                <td> <img src="./public/html5-logo.png" width="200" height="70"> </td>
+              </tr>
+              <tr style="height:40px">
+                <td>2008</td>
+                <td>Bachelor of Science </td>
+                <td> <img src="./public/git_logo.png" width="70" height="70"> </td>
+              </tr>
+              <tr style="height:40px">
+                <td>2005</td>
+                <td>Diploma</td>
+                <td> <img src="./public/sql_logo.png" width="70" height="70"> </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Projects -->
+  <div id="projects">
+    <table>
+      <tr>
+        <td>
+          <div class="sub-title">
+            <h1>Project</h1>
+            <hr class="project-hr">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="work">
+            <a href="file:///C:/Users/abhis/Desktop/amazon/index.html">
+              <img src="./public/project1.png" alt="amazon">
+            </a>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="amazon-text">
+            <p>Amazon Shopping Webpage</p>
+
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- ------------Contact-------------- -->
+  <div id="contact">
+    <div class="contact-head">
+      <h1>Contact</h1>
+    </div>
+    <div class="contact-hr">
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>payalrattan21@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>0456198007</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/home.php"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/login"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form id="myform" onsubmit="return validation()">
+            <div id="error_message"></div>
+            <label for="fname">Full Name:</label>
+            <input type="text" placeholder="Your Full Name" id="name">
+            <label for="email-id">E-mail:</label>
+            <input type="text" id="email" placeholder="Your email">
+            <textarea id="message" rows="8" placeholder="Write your message"></textarea>
+            <button id="button"> <b>Submit</b> </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer">
+      <p class="copyright"><br>
+        <span><i class="fa-regular fa-copyright"></i></span> Designed and Developed by Payal
+        <span><i class="fa-regular fa-copyright"></i></span>
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
