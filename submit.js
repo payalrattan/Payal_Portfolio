@@ -23,7 +23,7 @@ function validation() {
         error_message.innerHTML = text;
         return false;
     }
-    alert("Message sent");
+    alert("Message has sent");
     return true;
 } 
 
